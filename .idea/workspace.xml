@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b3d18e5a-2abd-47a5-a16d-167f1971dc12" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../APITestingBYRestassured/resources/AssigningIssue.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../APITestingBYRestassured/resources/CreateBug.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../APITestingBYRestassured/resources/JiraLogin.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../APITestingBYRestassured/src/main/java/RestAssuredCore/BaseAssertion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../APITestingBYRestassured/src/main/java/RestAssuredCore/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../APITestingBYRestassured/src/main/java/RestAssuredCore/RESTCalls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../APITestingBYRestassured/src/main/java/utils/PayloadGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../APITestingBYRestassured/src/main/java/utils/TestUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../APITestingBYRestassured/src/main/java/utils/URL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AutomationFrameworkBatch1901/Generic/src/main/java/reporting/ApplicationLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AutomationFrameworkBatch1901/Generic/src/main/java/reporting/ExtentManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AutomationFrameworkBatch1901/Generic/src/main/java/reporting/ExtentTestManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AutomationFrameworkBatch1901/Generic/src/main/java/reporting/TestLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDB1901/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDB1901/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDB1901/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDB1901/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDB1901/CucumberBDDB1901.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDB1901/automationpractice/driver/IEDriverServer.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDB1901/automationpractice/driver/chromedriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDB1901/automationpractice/driver/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDB1901/automationpractice/driver/geckodriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDB1901/automationpractice/driver/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDB1901/automationpractice/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDB1901/automationpractice/reporting/cucumber-pretty/formatter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDB1901/automationpractice/reporting/cucumber-pretty/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDB1901/automationpractice/reporting/cucumber-pretty/jquery-1.8.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDB1901/automationpractice/reporting/cucumber-pretty/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDB1901/automationpractice/reporting/cucumber-pretty/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDB1901/automationpractice/reporting/cucumber.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDB1901/automationpractice/reporting/junit_xml/cucumber.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDB1901/automationpractice/src/test/java/base/ApplicationPageBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDB1901/automationpractice/src/test/java/features/docStringDemo.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDB1901/automationpractice/src/test/java/features/login.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDB1901/automationpractice/src/test/java/features/search.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDB1901/automationpractice/src/test/java/objects/ContactUsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDB1901/automationpractice/src/test/java/objects/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDB1901/automationpractice/src/test/java/objects/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDB1901/automationpractice/src/test/java/runner/RunnerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDB1901/automationpractice/src/test/java/stepDefinitions/DocStringDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDB1901/automationpractice/src/test/java/stepDefinitions/Hook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDB1901/automationpractice/src/test/java/stepDefinitions/LoginSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDB1901/automationpractice/src/test/java/stepDefinitions/LoginUsingDataTableSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDB1901/automationpractice/src/test/java/stepDefinitions/SearchSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDB1901/automationpractice/target/test-classes/base/ApplicationPageBase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDB1901/automationpractice/target/test-classes/objects/ContactUsPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDB1901/automationpractice/target/test-classes/objects/HomePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDB1901/automationpractice/target/test-classes/objects/LoginPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDB1901/automationpractice/target/test-classes/runner/RunnerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDB1901/automationpractice/target/test-classes/stepDefinitions/DocStringDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDB1901/automationpractice/target/test-classes/stepDefinitions/Hook.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDB1901/automationpractice/target/test-classes/stepDefinitions/LoginSteps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDB1901/automationpractice/target/test-classes/stepDefinitions/LoginUsingDataTableSteps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDB1901/automationpractice/target/test-classes/stepDefinitions/SearchSteps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDB1901/generic/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberBDDB1901/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tracer/tracer_app/CountOddAndEven.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tracer/tracer_test/qa_coding_test_answer_sheet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML_Basic/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HTML_Basic/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML_Basic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HTML_Basic/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML_Basic/src/main/java/WebApp/Basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/../HTML_Basic/src/main/java/WebApp/Basic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaBasicBatch1901/src/ArtihmaticOperators.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaBasicBatch1901/src/ClassVariableDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaBasicBatch1901/src/ComparisonDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaBasicBatch1901/src/ConditionalOperator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaBasicBatch1901/src/Phone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaBasicBatch1901/src/UniaryOperator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaBasicBatch1901/src/VariableTypesHomeWork.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaBasicBatch1901/src/VariablesDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VersionCompatibility/src/main/java/connectdb/ConnectMySQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/../VersionCompatibility/src/main/java/connectdb/ConnectMySQL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../candymapper/generic/src/main/java/base/BrowserDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../candymapper/generic/src/main/java/base/BrowserDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../candymapper/generic/src/main/java/reporting/ExtentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../candymapper/generic/src/main/java/reporting/ExtentManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../candymapper/webcandymapper/src/test/resources/CandymapperTestRunnerFile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../candymapper/webcandymapper/src/test/resources/CandymapperTestRunnerFile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../midtermbatch1901/General Instructions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../midtermbatch1901/General Instructions.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../midtermbatch1901/src/main/java/accounts/SalaryCalulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../midtermbatch1901/src/main/java/accounts/SalaryCalulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../midtermbatch1901/src/main/java/api/DeepDiveArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../midtermbatch1901/src/main/java/api/DeepDiveArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../midtermbatch1901/src/main/java/api/MapAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../midtermbatch1901/src/main/java/api/MapAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../midtermbatch1901/src/main/java/inheritance/Nokia1100.java" beforeDir="false" afterPath="$PROJECT_DIR$/../midtermbatch1901/src/main/java/inheritance/Nokia1100.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../midtermbatch1901/src/main/java/inheritance/PreNokia1100.java" beforeDir="false" afterPath="$PROJECT_DIR$/../midtermbatch1901/src/main/java/inheritance/PreNokia1100.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../midtermbatch1901/src/main/java/inheritance/SymbianPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/../midtermbatch1901/src/main/java/inheritance/SymbianPhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../midtermbatch1901/src/main/java/java/io/BufferReaderDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../midtermbatch1901/src/main/java/java/io/BufferReaderDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../midtermbatch1901/src/main/java/java/io/ReadTestDataXLSXFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../midtermbatch1901/src/main/java/java/io/ReadTestDataXLSXFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../midtermbatch1901/src/main/java/utility/XLSXFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../midtermbatch1901/src/main/java/utility/XLSXFileReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../midtermbatch1901/src/test/java/Unit-Testing-Instructions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../midtermbatch1901/src/test/java/Unit-Testing-Instructions.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../midtermbatch1901/src/test/java/accountstest/SalaryCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../midtermbatch1901/src/test/java/accountstest/SalaryCalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../midtermbatch1901/src/test/java/dbtest/instructions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../midtermbatch1901/src/test/java/dbtest/instructions.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simplewebapp/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simplewebapp/src/main/java/com/sample/Services.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1523849221">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="2" />
+          <entry key="java" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="2" />
+          <entry key="JAVA" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="4" />
+          <entry key="java" value="266" />
+          <entry key="xml" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="266" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="XML" value="15" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/HomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/HomePageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../MobileAutomationTesting/functional-tests-core" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../lambda-selenium/lambda-selenium-java" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/HomePageTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="1027" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="WebAutomationBatch1902" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationBatch1902" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationBatch1902" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationBatch1902" type="462c0819:PsiDirectoryNode" />
+              <item name="driver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationBatch1902" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationBatch1902" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationBatch1902" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationBatch1902" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationBatch1902" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationBatch1902" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationBatch1902" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationBatch1902" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationBatch1902" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationBatch1902" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567555727158" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="HomePage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomePage" />
+      <module name="WebAutomationBatch1902" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePageTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebAutomationBatch1902" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HomePageTest" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePageTest.search" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebAutomationBatch1902" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HomePageTest" />
+      <option name="METHOD_NAME" value="search" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.HomePage" />
+      <item itemvalue="TestNG.HomePageTest.search" />
+      <item itemvalue="TestNG.HomePageTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.HomePageTest.search" />
+        <item itemvalue="TestNG.HomePageTest" />
+        <item itemvalue="Application.HomePage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b3d18e5a-2abd-47a5-a16d-167f1971dc12" name="Default Changelist" comment="" />
+      <created>1567551778694</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567551778694</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="HomePage_search - 2019.09.03 at 19h 43m 28s.xml">
+      <configuration name="HomePage.search" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomePageTest - 2019.09.03 at 19h 51m 06s.xml">
+      <configuration name="HomePageTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomePageTest_search - 2019.09.03 at 19h 51m 29s.xml">
+      <configuration name="HomePageTest.search" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomePageTest_search - 2019.09.03 at 20h 04m 45s.xml">
+      <configuration name="HomePageTest.search" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32941177" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Codota" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/events/EventFiringWebDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="129" column="16" selection-start-line="129" selection-start-column="16" selection-end-line="129" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/WebDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/HomePageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
