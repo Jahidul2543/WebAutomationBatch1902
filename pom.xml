@@ -11,6 +11,7 @@
     <modules>
         <module>ecommerce</module>
         <module>generic</module>
+        <module>express</module>
     </modules>
 
     <dependencyManagement>
