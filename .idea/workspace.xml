@@ -60,10 +60,10 @@
       <change afterPath="$PROJECT_DIR$/../CucumberBDDB1901/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Tracer/tracer_app/CountOddAndEven.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Tracer/tracer_test/qa_coding_test_answer_sheet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce/src/test/java/pageobjects/ContactUsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce/src/test/java/pageobjects/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce/src/test/java/pageobjectstest/ContactUsPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce/src/test/java/pageobjectstest/HomePageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generic/drivers/mac/chromedriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generic/drivers/mac/geckodriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generic/drivers/windows/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generic/drivers/windows/geckodriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HTML_Basic/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HTML_Basic/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HTML_Basic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HTML_Basic/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HTML_Basic/src/main/java/WebApp/Basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/../HTML_Basic/src/main/java/WebApp/Basic.html" afterDir="false" />
@@ -76,13 +76,12 @@
       <change beforePath="$PROJECT_DIR$/../JavaBasicBatch1901/src/VariableTypesHomeWork.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaBasicBatch1901/src/VariablesDemo.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../VersionCompatibility/src/main/java/connectdb/ConnectMySQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/../VersionCompatibility/src/main/java/connectdb/ConnectMySQL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/generic/driver/chromedriver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HomePageTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HomePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/HomePageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/src/test/resources/EcommerceTestRunnerFile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/test/resources/EcommerceTestRunnerFile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/target/test-classes/EcommerceTestRunnerFile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/target/test-classes/EcommerceTestRunnerFile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generic/driver/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/generic/drivers/chromedriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generic/src/main/java/base/BrowserDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/generic/src/main/java/base/BrowserDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generic/target/classes/base/BrowserDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/generic/target/classes/base/BrowserDriver.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../candymapper/generic/src/main/java/base/BrowserDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../candymapper/generic/src/main/java/base/BrowserDriver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../candymapper/generic/src/main/java/reporting/ExtentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../candymapper/generic/src/main/java/reporting/ExtentManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../candymapper/webcandymapper/src/test/resources/CandymapperTestRunnerFile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../candymapper/webcandymapper/src/test/resources/CandymapperTestRunnerFile.xml" afterDir="false" />
@@ -116,15 +115,16 @@
     <session id="-1523849221">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="6" />
+          <entry key="class" value="7" />
           <entry key="gitignore" value="1" />
           <entry key="java" value="10" />
           <entry key="xml" value="5" />
@@ -132,7 +132,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="6" />
+          <entry key="CLASS" value="7" />
           <entry key="JAVA" value="10" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="5" />
@@ -141,15 +141,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="java" value="930" />
-          <entry key="xml" value="78" />
+          <entry key="java" value="1046" />
+          <entry key="xml" value="160" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="930" />
+          <entry key="JAVA" value="1046" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="XML" value="78" />
+          <entry key="XML" value="160" />
         </counts>
       </usages-collector>
     </session>
@@ -162,8 +162,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="28" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+            <state>
+              <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -181,7 +181,7 @@
         <entry file="file://$PROJECT_DIR$/ecommerce/src/test/java/pageobjectstest/ContactUsPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="32" lean-forward="true" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+              <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -189,12 +189,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ecommerce/src/test/java/pageobjectstest/HomePageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="55" lean-forward="true" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="55" />
+            <state relative-caret-position="510">
+              <caret line="36" column="55" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#414#415#0" expanded="true" />
-                <element signature="e#501#502#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -203,8 +201,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ecommerce/src/test/java/pageobjects/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+            <state relative-caret-position="495">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -215,8 +213,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ecommerce/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="45" column="12" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="45" selection-end-column="12" />
+            <state relative-caret-position="675">
+              <caret line="45" column="12" selection-start-line="23" selection-start-column="4" selection-end-line="45" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -233,8 +231,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/generic/src/main/java/base/BrowserDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
+            <state relative-caret-position="380">
+              <caret line="92" column="67" selection-start-line="92" selection-start-column="67" selection-end-line="92" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -245,8 +243,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ecommerce/src/test/resources/EcommerceTestRunnerFile.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+            <state relative-caret-position="270">
+              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -284,9 +282,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/generic/pom.xml" />
         <option value="$PROJECT_DIR$/ecommerce/pom.xml" />
-        <option value="$PROJECT_DIR$/generic/src/main/java/base/BrowserDriver.java" />
         <option value="$PROJECT_DIR$/ecommerce/src/test/java/pageobjectstest/HomePageTest.java" />
         <option value="$PROJECT_DIR$/ecommerce/src/test/java/pageobjects/HomePage.java" />
+        <option value="$PROJECT_DIR$/generic/src/main/java/base/BrowserDriver.java" />
         <option value="$PROJECT_DIR$/ecommerce/src/test/resources/EcommerceTestRunnerFile.xml" />
       </list>
     </option>
@@ -301,9 +299,9 @@
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="y" value="23" />
-    <option name="width" value="1550" />
+    <option name="width" value="1680" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -312,7 +310,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -345,44 +342,31 @@
               <item name="ecommerce" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationBatch1902" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationBatch1902" type="462c0819:PsiDirectoryNode" />
-              <item name="ecommerce" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pageobjects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationBatch1902" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationBatch1902" type="462c0819:PsiDirectoryNode" />
-              <item name="ecommerce" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pageobjectstest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationBatch1902" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationBatch1902" type="462c0819:PsiDirectoryNode" />
-              <item name="ecommerce" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebAutomationBatch1902" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebAutomationBatch1902" type="462c0819:PsiDirectoryNode" />
+              <item name="ecommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationBatch1902" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationBatch1902" type="462c0819:PsiDirectoryNode" />
               <item name="generic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebAutomationBatch1902" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebAutomationBatch1902" type="462c0819:PsiDirectoryNode" />
               <item name="generic" type="462c0819:PsiDirectoryNode" />
-              <item name="driver" type="462c0819:PsiDirectoryNode" />
+              <item name="drivers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationBatch1902" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationBatch1902" type="462c0819:PsiDirectoryNode" />
+              <item name="generic" type="462c0819:PsiDirectoryNode" />
+              <item name="drivers" type="462c0819:PsiDirectoryNode" />
+              <item name="mac" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebAutomationBatch1902" type="b2602c69:ProjectViewProjectNode" />
@@ -414,31 +398,40 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="WebAutomationBatch1902" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationBatch1902" type="462c0819:PsiDirectoryNode" />
+              <item name="generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567818361260" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568161055096" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/generic" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/generic/driver" />
+      <recent name="$PROJECT_DIR$/ecommerce/src/test/resources" />
+      <recent name="$PROJECT_DIR$/ecommerce/src/test/java/pageobjectstest" />
+      <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="base" />
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ecommerce/src/test/resources" />
-      <recent name="$PROJECT_DIR$/ecommerce/src/test/java/pageobjectstest" />
-      <recent name="$PROJECT_DIR$/src/test/resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/generic" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -536,27 +529,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HomePageTest_searchTest - 2019.09.06 at 19h 10m 00s.xml">
-      <configuration name="HomePageTest.searchTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_jahidul_IdeaProjects_WebAutomationBatch1902_src_test_resources_EcommerceTestRunnerFile_xml - 2019.09.06 at 19h 14m 22s.xml">
-      <configuration name="/Users/jahidul/IdeaProjects/WebAutomationBatch1902/src/test/resources/EcommerceTestRunnerFile.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_jahidul_IdeaProjects_WebAutomationBatch1902_ecommerce_src_test_resources_EcommerceTestRunnerFile_xml - 2019.09.06 at 20h 18m 39s.xml">
-      <configuration name="/Users/jahidul/IdeaProjects/WebAutomationBatch1902/ecommerce/src/test/resources/EcommerceTestRunnerFile.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_jahidul_IdeaProjects_WebAutomationBatch1902_ecommerce_src_test_resources_EcommerceTestRunnerFile_xml - 2019.09.06 at 20h 20m 34s.xml">
-      <configuration name="/Users/jahidul/IdeaProjects/WebAutomationBatch1902/ecommerce/src/test/resources/EcommerceTestRunnerFile.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_jahidul_IdeaProjects_WebAutomationBatch1902_ecommerce_src_test_resources_EcommerceTestRunnerFile_xml - 2019.09.06 at 20h 22m 08s.xml">
-      <configuration name="/Users/jahidul/IdeaProjects/WebAutomationBatch1902/ecommerce/src/test/resources/EcommerceTestRunnerFile.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_jahidul_IdeaProjects_WebAutomationBatch1902_ecommerce_src_test_resources_EcommerceTestRunnerFile_xml - 2019.09.06 at 20h 25m 36s.xml">
-      <configuration name="/Users/jahidul/IdeaProjects/WebAutomationBatch1902/ecommerce/src/test/resources/EcommerceTestRunnerFile.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_jahidul_IdeaProjects_WebAutomationBatch1902_ecommerce_src_test_resources_EcommerceTestRunnerFile_xml - 2019.09.06 at 20h 27m 24s.xml">
-      <configuration name="/Users/jahidul/IdeaProjects/WebAutomationBatch1902/ecommerce/src/test/resources/EcommerceTestRunnerFile.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="_Users_jahidul_IdeaProjects_WebAutomationBatch1902_ecommerce_src_test_resources_EcommerceTestRunnerFile_xml - 2019.09.06 at 20h 47m 34s.xml">
       <configuration name="/Users/jahidul/IdeaProjects/WebAutomationBatch1902/ecommerce/src/test/resources/EcommerceTestRunnerFile.xml" configurationId="TestNG" />
     </history-entry>
@@ -566,11 +538,32 @@
     <history-entry file="_Users_jahidul_IdeaProjects_WebAutomationBatch1902_ecommerce_src_test_resources_EcommerceTestRunnerFile_xml - 2019.09.06 at 20h 56m 25s.xml">
       <configuration name="/Users/jahidul/IdeaProjects/WebAutomationBatch1902/ecommerce/src/test/resources/EcommerceTestRunnerFile.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="_Users_jahidul_IdeaProjects_WebAutomationBatch1902_ecommerce_src_test_resources_EcommerceTestRunnerFile_xml - 2019.09.06 at 21h 02m 56s.xml">
+      <configuration name="/Users/jahidul/IdeaProjects/WebAutomationBatch1902/ecommerce/src/test/resources/EcommerceTestRunnerFile.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomePageTest_searchTest - 2019.09.06 at 21h 08m 39s.xml">
+      <configuration name="HomePageTest.searchTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_jahidul_IdeaProjects_WebAutomationBatch1902_ecommerce_src_test_resources_EcommerceTestRunnerFile_xml - 2019.09.10 at 19h 05m 14s.xml">
+      <configuration name="/Users/jahidul/IdeaProjects/WebAutomationBatch1902/ecommerce/src/test/resources/EcommerceTestRunnerFile.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_jahidul_IdeaProjects_WebAutomationBatch1902_ecommerce_src_test_resources_EcommerceTestRunnerFile_xml - 2019.09.10 at 19h 06m 35s.xml">
+      <configuration name="/Users/jahidul/IdeaProjects/WebAutomationBatch1902/ecommerce/src/test/resources/EcommerceTestRunnerFile.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_jahidul_IdeaProjects_WebAutomationBatch1902_ecommerce_src_test_resources_EcommerceTestRunnerFile_xml - 2019.09.10 at 19h 29m 40s.xml">
+      <configuration name="/Users/jahidul/IdeaProjects/WebAutomationBatch1902/ecommerce/src/test/resources/EcommerceTestRunnerFile.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_jahidul_IdeaProjects_WebAutomationBatch1902_ecommerce_src_test_resources_EcommerceTestRunnerFile_xml - 2019.09.10 at 19h 30m 31s.xml">
+      <configuration name="/Users/jahidul/IdeaProjects/WebAutomationBatch1902/ecommerce/src/test/resources/EcommerceTestRunnerFile.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_jahidul_IdeaProjects_WebAutomationBatch1902_ecommerce_src_test_resources_EcommerceTestRunnerFile_xml - 2019.09.10 at 19h 37m 27s.xml">
+      <configuration name="/Users/jahidul/IdeaProjects/WebAutomationBatch1902/ecommerce/src/test/resources/EcommerceTestRunnerFile.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49804688" visible="true" weight="0.16666667" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49804688" visible="true" weight="0.16849817" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -579,12 +572,12 @@
       <window_info id="Favorites" order="6" sideWeight="0.5019531" side_tool="true" weight="0.16666667" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.41938776" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.47857141" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.14081633" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.14795919" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32857144" />
@@ -636,25 +629,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BrowserDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BrowserDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#545#546#0" expanded="true" />
-            <element signature="e#566#567#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BrowserDriver.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/BrowserDriver.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/Invoker.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -662,34 +638,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/EcommerceTestRunnerFile.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/HomePageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ContactUsPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="32" selection-start-column="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/EcommerceTestRunnerFile.xml" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/HomePageTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/ContactUsPageTest.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.11/testng-6.11.jar!/org/testng/annotations/Parameters.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="5" column="18" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -700,10 +662,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/ecommerce/src/test/java/pageobjectstest/ContactUsPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="28" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+        <state relative-caret-position="30">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommerce/src/test/java/pageobjectstest/HomePageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="36" column="55" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommerce/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="12" selection-start-line="23" selection-start-column="4" selection-end-line="45" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -714,56 +693,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/pom.xml">
+    <entry file="file://$PROJECT_DIR$/ecommerce/src/test/java/pageobjects/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="45" column="12" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="45" selection-end-column="12" />
+        <state relative-caret-position="495">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar!/org/openqa/selenium/remote/DesiredCapabilities.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/generic/src/main/java/base/BrowserDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
+        <state relative-caret-position="380">
+          <caret line="92" column="67" selection-start-line="92" selection-start-column="67" selection-end-line="92" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/src/test/java/pageobjects/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/src/test/java/pageobjectstest/ContactUsPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="32" lean-forward="true" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/src/test/java/pageobjectstest/HomePageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="55" lean-forward="true" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#501#502#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ecommerce/src/test/resources/EcommerceTestRunnerFile.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+        <state relative-caret-position="270">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
         </state>
       </provider>
     </entry>
