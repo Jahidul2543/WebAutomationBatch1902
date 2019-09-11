@@ -82,24 +82,26 @@ public class BrowserDriver {
 
     public static WebDriver driver = null;
 
-   /* *//**
+     /**
      * Browserstack Credentials
      *
-     * *//*
-    public static final String browserstack_username = System.getProperty("bsUName"); //mislam1
-    public static final String browserstack_automateKey = System.getProperty("bsSecretKey"); //fLT1od64aNyhBBcxr7Ki
+     * */
+    public static final String browserstack_username = System.getProperty("bsUName");
+    public static final String browserstack_automateKey = System.getProperty("bsSecretKey");
+
+    // public static final String browserstack_username = "mislam1"; //mislam1
+    // public static final String browserstack_automateKey = ""; //
 
 
-
-    *//**
+     /**
      *
      * Saucelab Credentials
      *
-     * *//*
+     * */
     public static final String saucelabs_username = null;
-    public static final String saucelabs_accesskey = null;*/
+    public static final String saucelabs_accesskey = null;
 
-    public static String   os = System.getProperty("os", "windows");
+    /*public static String   os = System.getProperty("os", "windows");
 
             @Parameters({"url"})
             @BeforeMethod
@@ -120,14 +122,14 @@ public class BrowserDriver {
     public void closeOut() {
         //driver.manage().deleteAllCookies();
         driver.quit();
-    }
+    }*/
 
 
 
-   /* @Parameters({"useCloudEnv","cloudEnvName", *//*"os",*//* "os_version", "browserName", "browserVersion", "url"})
+    @Parameters({"useCloudEnv","cloudEnvName", "os","os_version", "browserName", "browserVersion", "url"})
     @BeforeMethod
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false") String cloudEnvName,
-            *//*@Optional("windows") String os,*//* @Optional("10") String os_version, @Optional("firefox") String browserName, @Optional("34")
+            @Optional("windows") String os, @Optional("10") String os_version, @Optional("firefox") String browserName, @Optional("34")
                               String browserVersion, @Optional("https://www.google.com") String url) throws IOException {
 
 
@@ -151,13 +153,13 @@ public class BrowserDriver {
 
     public WebDriver getLocalDriver(String browserName, String os) {
 
-
+          // if (browserName == "Chrome")
         if (browserName.equalsIgnoreCase("chrome")) {
 
-            *//*
+            /**
              * Command Line Arguments
              * https://peter.sh/experiments/chromium-command-line-switches/
-             * *//*
+             * */
 
             ChromeOptions options =new ChromeOptions();
             // options.setHeadless(true);
@@ -179,10 +181,10 @@ public class BrowserDriver {
             }
         }
         else if (browserName.equalsIgnoreCase("firefox")) {
-            *//*
+            /**
              * https://chercher.tech/java/chrome-firefox-options-selenium-webdriver
              *
-             * *//*
+             * */
             FirefoxOptions options = new FirefoxOptions();
             //options.setHeadless(true);
             options.addArguments("--start-maximized");
@@ -233,7 +235,7 @@ public class BrowserDriver {
         driver.quit();
     }
 
-    public static void captureScreenshot(WebDriver driver, String screenshotName){
+   /* public static void captureScreenshot(WebDriver driver, String screenshotName){
 
         DateFormat df = new SimpleDateFormat("(MM.dd.yyyy-HH:mma)");
         Date date = new Date();
@@ -247,9 +249,9 @@ public class BrowserDriver {
             System.out.println("Exception while taking screenshot "+e.getMessage());;
         }
 
-    }
+    }*/
 
-    *//**
+    /**
      *
      * @return current WebDriver instance
      *//*
