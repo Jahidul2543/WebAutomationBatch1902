@@ -20,6 +20,9 @@ public class HomePage  {
       @FindBy(how = How.CLASS_NAME, using = "product-count")
       WebElement productcount;
 
+      @FindBy(how = How.LINK_TEXT, using = "Contact us")
+      WebElement contactUs;
+
     public String search(){
         searchBox.sendKeys("T Shirt");
         searchButton.click();
@@ -28,6 +31,10 @@ public class HomePage  {
 
        //Lets do some work
         // Helloooooooo
+    }
+
+    public void gotToContactUsPage(){
+        contactUs.click();
     }
 
 }

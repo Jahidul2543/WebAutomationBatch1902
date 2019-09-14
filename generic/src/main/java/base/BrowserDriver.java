@@ -1,6 +1,9 @@
 package base;
 
 
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.LogStatus;
+import org.codehaus.plexus.util.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -11,6 +14,8 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
+import reporting.ExtentManager;
+import reporting.ExtentTestManager;
 
 
 import java.io.File;
@@ -27,7 +32,7 @@ import java.util.concurrent.TimeUnit;
 
 public class BrowserDriver {
 
-   /* //ExtentReport
+    //ExtentReport
     public static ExtentReports extent;
     @BeforeSuite
     public void extentSetup(ITestContext context) {
@@ -78,7 +83,7 @@ public class BrowserDriver {
         Calendar calendar = Calendar.getInstance();
         calendar.setTimeInMillis(millis);
         return calendar.getTime();
-    }*/
+    }
 
     public static WebDriver driver = null;
 
@@ -235,7 +240,7 @@ public class BrowserDriver {
         driver.quit();
     }
 
-   /* public static void captureScreenshot(WebDriver driver, String screenshotName){
+    public static void captureScreenshot(WebDriver driver, String screenshotName){
 
         DateFormat df = new SimpleDateFormat("(MM.dd.yyyy-HH:mma)");
         Date date = new Date();
@@ -249,7 +254,7 @@ public class BrowserDriver {
             System.out.println("Exception while taking screenshot "+e.getMessage());;
         }
 
-    }*/
+    }
 
     /**
      *
