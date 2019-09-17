@@ -28,6 +28,18 @@ public class UsingGoogleSheetLoginPageTest extends BrowserDriver {
      *
      * */
 
+    /**
+     *
+     * Read data from Google Sheet
+     * Make sure you have created client_secret.json from your account where you have Google Sheet Data file
+     * Delete .credentials directory from your module if it is exists. Other wise it will take existing/old credentials
+     * thus it may give unauthorized access error(error code starting with 4, such as 403,404)
+     * We can supply data to test method by two ways
+     * 1. We can use @DataProvider to feed data to the test method
+     * 2. We can supply data to the test method directly
+     *
+     * */
+
     @DataProvider
     public Object[][] readData() throws Exception {
 

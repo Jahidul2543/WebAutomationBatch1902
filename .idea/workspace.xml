@@ -60,6 +60,7 @@
       <change afterPath="$PROJECT_DIR$/../CucumberBDDB1901/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Tracer/tracer_app/CountOddAndEven.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Tracer/tracer_test/qa_coding_test_answer_sheet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/express/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HTML_Basic/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HTML_Basic/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HTML_Basic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HTML_Basic/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HTML_Basic/src/main/java/WebApp/Basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/../HTML_Basic/src/main/java/WebApp/Basic.html" afterDir="false" />
@@ -72,34 +73,7 @@
       <change beforePath="$PROJECT_DIR$/../JavaBasicBatch1901/src/VariableTypesHomeWork.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaBasicBatch1901/src/VariablesDemo.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../VersionCompatibility/src/main/java/connectdb/ConnectMySQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/../VersionCompatibility/src/main/java/connectdb/ConnectMySQL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/src/test/java/applicationbasepage/HelperMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/test/java/applicationbasepage/HelperMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/src/test/java/pageobjects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/test/java/pageobjects/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/src/test/resources/EcommerceTestRunnerFile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/test/resources/EcommerceTestRunnerFile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/target/surefire-reports/AliBaba Automation Test/Ecommerce Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/target/surefire-reports/AliBaba Automation Test/Ecommerce Home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/target/surefire-reports/AliBaba Automation Test/Ecommerce Home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/target/surefire-reports/AliBaba Automation Test/Ecommerce Home.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/target/surefire-reports/junitreports/TEST-pageobjectstest.HomePageTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/target/surefire-reports/old/AliBaba Automation Test/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/target/surefire-reports/old/AliBaba Automation Test/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/target/surefire-reports/old/AliBaba Automation Test/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/target/surefire-reports/old/AliBaba Automation Test/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/target/surefire-reports/old/AliBaba Automation Test/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/target/surefire-reports/old/AliBaba Automation Test/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/target/surefire-reports/old/AliBaba Automation Test/reporter-output.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/target/surefire-reports/old/AliBaba Automation Test/reporter-output.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/target/surefire-reports/old/AliBaba Automation Test/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/target/surefire-reports/old/AliBaba Automation Test/testng.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/target/surefire-reports/old/AliBaba Automation Test/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/target/surefire-reports/old/AliBaba Automation Test/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/target/test-classes/EcommerceTestRunnerFile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/target/test-classes/EcommerceTestRunnerFile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/target/test-classes/applicationbasepage/HelperMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/target/test-classes/applicationbasepage/HelperMethods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/target/test-classes/pageobjects/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/target/test-classes/pageobjects/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/generic/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAutomationBatch1902.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../candymapper/generic/src/main/java/base/BrowserDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../candymapper/generic/src/main/java/base/BrowserDriver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../candymapper/generic/src/main/java/reporting/ExtentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../candymapper/generic/src/main/java/reporting/ExtentManager.java" afterDir="false" />
@@ -186,7 +160,7 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="249">
-              <caret line="69" selection-start-line="69" selection-end-line="69" />
+              <caret line="70" selection-start-line="70" selection-end-line="70" />
             </state>
           </provider>
         </entry>
@@ -201,27 +175,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/generic/src/main/java/api/GoogleSheetReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-606">
-              <caret line="39" column="30" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ecommerce/src/test/java/pageobjectstest/UsingGoogleSheetLoginPageTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="48" column="57" lean-forward="true" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/generic/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="624">
@@ -230,44 +183,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/generic/src/main/java/reader/MyDataReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ecommerce/src/test/java/pageobjects/LoginPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ecommerce/src/test/java/pageobjectstest/LoginPageTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="35" column="46" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ecommerce/src/test/resources/EcommerceTestRunnerFile.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -435,15 +355,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="WebAutomationBatch1902" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationBatch1902" type="462c0819:PsiDirectoryNode" />
-              <item name="generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -452,18 +363,22 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568762298487" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568762772879" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/generic" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ecommerce" />
+      <recent name="$PROJECT_DIR$/generic/src/main/java/base" />
+      <recent name="$PROJECT_DIR$/generic/driver" />
+      <recent name="$PROJECT_DIR$/ecommerce/src/test/resources" />
+      <recent name="$PROJECT_DIR$/ecommerce/src/test/java/pageobjectstest" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="pageobjectstest" />
@@ -472,12 +387,8 @@
       <recent name="reader" />
       <recent name="base" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ecommerce" />
-      <recent name="$PROJECT_DIR$/generic/src/main/java/base" />
-      <recent name="$PROJECT_DIR$/generic/driver" />
-      <recent name="$PROJECT_DIR$/ecommerce/src/test/resources" />
-      <recent name="$PROJECT_DIR$/ecommerce/src/test/java/pageobjectstest" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/generic" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -609,7 +520,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49804688" visible="true" weight="0.17032968" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49804688" visible="true" weight="0.17032968" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -623,7 +534,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.17755102" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.39489797" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32857144" />
@@ -766,9 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="68" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -828,7 +736,7 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
         </state>
       </provider>
     </entry>
@@ -849,9 +757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-606">
           <caret line="39" column="30" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -865,7 +770,7 @@
     <entry file="file://$PROJECT_DIR$/ecommerce/src/test/resources/EcommerceTestRunnerFile.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>

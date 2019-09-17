@@ -20,10 +20,9 @@
         <class name="pageobjectstest.ContactUsPageTest"/>
         <class name="pageobjectstest.LoginPageTest"/>-->
         <class name="pageobjectstest.UsingGoogleSheetLoginPageTest"/>
+ </classes>
 
-    </classes>
-
-    <!--Hello-->
+ <!--Hello-->
 </test>
 
 </suite>
