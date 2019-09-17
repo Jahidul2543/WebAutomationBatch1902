@@ -16,8 +16,10 @@
 <test name = "Ecommerce Home">
     <classes>
 
-        <class name="pageobjectstest.HomePageTest"/>
+        <!--<class name="pageobjectstest.HomePageTest"/>
         <class name="pageobjectstest.ContactUsPageTest"/>
+        <class name="pageobjectstest.LoginPageTest"/>-->
+        <class name="pageobjectstest.UsingGoogleSheetLoginPageTest"/>
 
     </classes>
 

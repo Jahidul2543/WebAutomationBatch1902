@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [AliBaba Automation Test]">
+  <parameter name="useCloudEnv" value="false"/>
+  <parameter name="os" value="mac"/>
+  <parameter name="os_version" value="Mojave"/>
+  <parameter name="browserVersion" value="76.0"/>
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="cloudEnvName" value="browserstack"/>
+  <parameter name="url" value="http://automationpractice.com"/>
+  <test name="Ecommerce Home(failed)">
+    <classes>
+      <class name="pageobjectstest.LoginPageTest">
+        <methods>
+          <include name="closeOut"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="initializationOfElements"/>
+          <include name="afterEachTestMethod"/>
+          <include name="loginTest"/>
+          <include name="startExtent"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- pageobjectstest.LoginPageTest -->
+    </classes>
+  </test> <!-- Ecommerce Home(failed) -->
+</suite> <!-- Failed suite [AliBaba Automation Test] -->

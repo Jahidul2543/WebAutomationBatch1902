@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +102,17 @@
                     <div class="method-list-content passed suite-AliBaba_Automation_Test">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-AliBaba_Automation_Test" title="pageobjectstest.HomePageTest" hash-for-method="searchTest">searchTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-AliBaba_Automation_Test" title="pageobjectstest.LoginPageTest" hash-for-method="loginTest(jah@gmail.com, hello, There is 1 error)">loginTest(jah@gmail.com, hello, There is 1 error)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AliBaba_Automation_Test" title="pageobjectstest.LoginPageTest" hash-for-method="loginTest(asdf@gmail.com, H1234, There is 1 error)">loginTest(asdf@gmail.com, H1234, There is 1 error)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AliBaba_Automation_Test" title="pageobjectstest.LoginPageTest" hash-for-method="loginTest(jggg@gmail.com, Hi3345, There is 1 error)">loginTest(jggg@gmail.com, Hi3345, There is 1 error)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-AliBaba_Automation_Test -->
@@ -120,14 +130,31 @@
           <div class="suite-AliBaba_Automation_Test-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">pageobjectstest.HomePageTest</span>
+              <span class="class-name">pageobjectstest.LoginPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="searchTest">
-                  </a> <!-- searchTest -->
-                  <span class="method-name">searchTest</span>
+                  <a name="loginTest(jah@gmail.com, hello, There is 1 error)">
+                  </a> <!-- loginTest(jah@gmail.com, hello, There is 1 error) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(jah@gmail.com, hello, There is 1 error)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(asdf@gmail.com, H1234, There is 1 error)">
+                  </a> <!-- loginTest(asdf@gmail.com, H1234, There is 1 error) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(asdf@gmail.com, H1234, There is 1 error)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(jggg@gmail.com, Hi3345, There is 1 error)">
+                  </a> <!-- loginTest(jggg@gmail.com, Hi3345, There is 1 error) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(jggg@gmail.com, Hi3345, There is 1 error)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -142,8 +169,8 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;AliBaba Automation Test&quot;&gt;
-  &lt;parameter name=&quot;useCloudEnv&quot; value=&quot;true&quot;/&gt;
-  &lt;parameter name=&quot;os&quot; value=&quot;OS X&quot;/&gt;
+  &lt;parameter name=&quot;useCloudEnv&quot; value=&quot;false&quot;/&gt;
+  &lt;parameter name=&quot;os&quot; value=&quot;mac&quot;/&gt;
   &lt;parameter name=&quot;os_version&quot; value=&quot;Mojave&quot;/&gt;
   &lt;parameter name=&quot;browserVersion&quot; value=&quot;76.0&quot;/&gt;
   &lt;parameter name=&quot;browserName&quot; value=&quot;chrome&quot;/&gt;
@@ -151,8 +178,7 @@
   &lt;parameter name=&quot;url&quot; value=&quot;http://automationpractice.com&quot;/&gt;
   &lt;test name=&quot;Ecommerce Home&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;pageobjectstest.HomePageTest&quot;/&gt;
-      &lt;class name=&quot;pageobjectstest.ContactUsPageTest&quot;/&gt;
+      &lt;class name=&quot;pageobjectstest.LoginPageTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Ecommerce Home --&gt;
 &lt;/suite&gt; &lt;!-- AliBaba Automation Test --&gt;
@@ -166,7 +192,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Ecommerce Home (2 classes)</span>
+                <span class="test-name">Ecommerce Home (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -192,16 +218,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'searchTest')
-data.setCell(0, 2, 'pageobjectstest.HomePageTest')
-data.setCell(0, 3, 1226);
+data.setCell(0, 1, 'loginTest')
+data.setCell(0, 2, 'pageobjectstest.LoginPageTest')
+data.setCell(0, 3, 2414);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginTest')
+data.setCell(1, 2, 'pageobjectstest.LoginPageTest')
+data.setCell(1, 3, 1960);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'loginTest')
+data.setCell(2, 2, 'pageobjectstest.LoginPageTest')
+data.setCell(2, 3, 1914);
 window.suiteTableData['AliBaba_Automation_Test']= { tableData: data, tableDiv: 'times-div-AliBaba_Automation_Test'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
               <div id="times-div-AliBaba_Automation_Test">
               </div> <!-- times-div-AliBaba_Automation_Test -->
             </div> <!-- times-div -->
@@ -212,6 +246,45 @@ return data;
             <span class="header-content">Reporter output for AliBaba Automation Test</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginTest(jah@gmail.com, hello, There is 1 error)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Send Keys to emailBox</span>
+                <span class="reporter-method-output">Sent keys to emailBox</span>
+                <span class="reporter-method-output">Send Keys to passwordBox</span>
+                <span class="reporter-method-output">Sent keys to passwordBox</span>
+                <span class="reporter-method-output">CLick submitButton</span>
+                <span class="reporter-method-output">Clicked submitButton</span>
+                <span class="reporter-method-output">Getting Text from errorMessage</span>
+                <span class="reporter-method-output">Actual text: There is 1 error</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginTest(asdf@gmail.com, H1234, There is 1 error)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Send Keys to emailBox</span>
+                <span class="reporter-method-output">Sent keys to emailBox</span>
+                <span class="reporter-method-output">Send Keys to passwordBox</span>
+                <span class="reporter-method-output">Sent keys to passwordBox</span>
+                <span class="reporter-method-output">CLick submitButton</span>
+                <span class="reporter-method-output">Clicked submitButton</span>
+                <span class="reporter-method-output">Getting Text from errorMessage</span>
+                <span class="reporter-method-output">Actual text: There is 1 error</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginTest(jggg@gmail.com, Hi3345, There is 1 error)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Send Keys to emailBox</span>
+                <span class="reporter-method-output">Sent keys to emailBox</span>
+                <span class="reporter-method-output">Send Keys to passwordBox</span>
+                <span class="reporter-method-output">Sent keys to passwordBox</span>
+                <span class="reporter-method-output">CLick submitButton</span>
+                <span class="reporter-method-output">Clicked submitButton</span>
+                <span class="reporter-method-output">Getting Text from errorMessage</span>
+                <span class="reporter-method-output">Actual text: There is 1 error</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-AliBaba_Automation_Test" class="panel">
@@ -227,23 +300,87 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">pageobjectstest.HomePageTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp(true, browserstack, OS X, Mojave, chrome, 76.0, http://automationpractice.com)</span>
+              <div class="chronological-class-name">pageobjectstest.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">extentSetup(org.testng.TestRunner@5aa0dbf4)</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, mac, Mojave, chrome, 76.0, http://automationpractice.com)</span>
+                <span class="method-start">501 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
-                <span class="method-name">initElements</span>
-                <span class="method-start">5551 ms</span>
+                <span class="method-name">startExtent(public void pageobjectstest.LoginPageTest.loginTest(java.lang.String,java.lang.String,java.lang.Stri...)</span>
+                <span class="method-start">5738 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationOfElements</span>
+                <span class="method-start">5742 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">searchTest</span>
-                <span class="method-start">5570 ms</span>
+                <span class="method-name">loginTest(jah@gmail.com, hello, There is 1 error)</span>
+                <span class="method-start">5759 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">closeOut</span>
-                <span class="method-start">6797 ms</span>
+                <span class="method-name">afterEachTestMethod([TestResult name=loginTest status=SUCCESS method=LoginPageTest.loginTest(java.lang.String, java.lang...)</span>
+                <span class="method-start">8174 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeOut</span>
+                <span class="method-start">8453 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, mac, Mojave, chrome, 76.0, http://automationpractice.com)</span>
+                <span class="method-start">8453 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void pageobjectstest.LoginPageTest.loginTest(java.lang.String,java.lang.String,java.lang.Stri...)</span>
+                <span class="method-start">13801 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationOfElements</span>
+                <span class="method-start">13801 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(jggg@gmail.com, Hi3345, There is 1 error)</span>
+                <span class="method-start">13803 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=loginTest status=SUCCESS method=LoginPageTest.loginTest(java.lang.String, java.lang...)</span>
+                <span class="method-start">15717 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeOut</span>
+                <span class="method-start">15822 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, mac, Mojave, chrome, 76.0, http://automationpractice.com)</span>
+                <span class="method-start">15822 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void pageobjectstest.LoginPageTest.loginTest(java.lang.String,java.lang.String,java.lang.Stri...)</span>
+                <span class="method-start">22121 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationOfElements</span>
+                <span class="method-start">22122 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(asdf@gmail.com, H1234, There is 1 error)</span>
+                <span class="method-start">22122 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=loginTest status=SUCCESS method=LoginPageTest.loginTest(java.lang.String, java.lang...)</span>
+                <span class="method-start">24082 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeOut</span>
+                <span class="method-start">24194 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">generateReport</span>
+                <span class="method-start">24203 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

@@ -12,7 +12,7 @@ public class HelperMethods {
         TestLogger.log("Sent keys to " + elementName);
     }
 
-    public static void click(String elementName, WebElement element){
+    public static void click( WebElement element, String elementName){
         TestLogger.log("CLick " + elementName);
         element.click();
         TestLogger.log("Clicked " + elementName);
@@ -23,6 +23,15 @@ public class HelperMethods {
         TestLogger.log("Select option at index " + i);
         select.selectByIndex(i);
         TestLogger.log("Selected option at index " + i);
+
+    }
+    public static String getText(WebElement webElement, String webElementName){
+
+        TestLogger.log("Getting Text from " + webElementName);
+        String actualText =  webElement.getText();
+        TestLogger.log("Actual text: " + actualText);
+
+        return actualText;
 
     }
 }

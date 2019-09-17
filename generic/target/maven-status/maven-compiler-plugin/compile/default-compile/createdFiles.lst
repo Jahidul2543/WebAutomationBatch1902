@@ -1,0 +1,6 @@
+reporting/ApplicationLog.class
+reporting/ExtentTestManager.class
+reader/MyDataReader.class
+base/BrowserDriver.class
+reporting/TestLogger.class
+reporting/ExtentManager.class
